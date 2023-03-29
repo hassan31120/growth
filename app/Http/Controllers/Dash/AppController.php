@@ -19,7 +19,7 @@ class AppController extends Controller
             return response()->json([
                 'success' => false,
                 'msg' => 'there is no apps yet'
-            ], 404);
+            ], 200);
         }
     }
 

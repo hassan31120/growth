@@ -17,7 +17,7 @@ class OrderController extends Controller
             return response()->json([
                 'success' => false,
                 'msg' => 'there is no orders yet'
-            ], 404);
+            ], 200);
         }
     }
 

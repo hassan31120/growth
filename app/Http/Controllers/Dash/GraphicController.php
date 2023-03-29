@@ -18,7 +18,7 @@ class GraphicController extends Controller
             return response()->json([
                 'success' => false,
                 'msg' => 'there is no graphics yet'
-            ], 404);
+            ], 200);
         }
     }
 

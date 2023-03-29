@@ -18,7 +18,7 @@ class ProductController extends Controller
             return response()->json([
                 'success' => false,
                 'msg' => 'there is no products yet'
-            ], 404);
+            ], 200);
         }
     }
 

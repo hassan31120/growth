@@ -18,7 +18,7 @@ class ArticleController extends Controller
             return response()->json([
                 'success' => false,
                 'msg' => 'there is no articles yet'
-            ], 404);
+            ], 200);
         }
     }
 

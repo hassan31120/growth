@@ -23,7 +23,7 @@ class TeamController extends Controller
             return response()->json([
                 'success' => false,
                 'msg' => 'there is no team yet'
-            ], 404);
+            ], 200);
         }
     }
 

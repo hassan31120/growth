@@ -18,7 +18,7 @@ class ServiceController extends Controller
             return response()->json([
                 'success' => false,
                 'msg' => 'there is no services yet'
-            ], 404);
+            ], 200);
         }
     }
 

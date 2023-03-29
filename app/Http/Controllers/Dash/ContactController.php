@@ -17,7 +17,7 @@ class ContactController extends Controller
             return response()->json([
                 'success' => false,
                 'msg' => 'there is no contacts yet'
-            ], 404);
+            ], 200);
         }
     }
 

@@ -18,7 +18,7 @@ class MotionController extends Controller
             return response()->json([
                 'success' => false,
                 'msg' => 'there is no videos yet'
-            ], 404);
+            ], 200);
         }
     }
 

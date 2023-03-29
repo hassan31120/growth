@@ -18,7 +18,7 @@ class PartnerController extends Controller
             return response()->json([
                 'success' => false,
                 'msg' => 'there is no partners yet'
-            ], 404);
+            ], 200);
         }
     }
 

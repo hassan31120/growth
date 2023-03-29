@@ -33,7 +33,7 @@ class InfoController extends Controller
             return response()->json([
                 'success' => false,
                 'msg' => 'there is no info'
-            ], 404);
+            ], 200);
         }
     }
 

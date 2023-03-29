@@ -21,7 +21,7 @@ class AppCatController extends Controller
             return response()->json([
                 'success' => false,
                 'msg' => 'there is no cats yet'
-            ], 404);
+            ], 200);
         }
     }
 
